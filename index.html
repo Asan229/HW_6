@@ -8,108 +8,94 @@
     <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
-    <header class="header">
-      
-        <nav class="header-navigation">
-      <div class="container">
-        <a id="logo" class="header-logo" href="#">Asan Turdukulov</a>
-        <ul class="menu">
-          <li class="menu-item">
-            <a class="menu-link" href="index.html">Home</a>
+<header class="header">      
+  <div class="container">
+    <div class="header-nav-inner">
+     <nav class="header-nav">
+        <a id="logo" class="header-logo" href="#">AT</a>
+        <ul class="header-menu">
+          <li class="header-menu-item">
+            <a class="header-menu-link" href="index.html">Home</a>
           </li>
-          <li class="menu-item">
-            <a class="menu-link href="skills.html">Skills</a>
+          <li class="header-menu-item">
+            <a class="header-menu-link href="skills.html">Skills</a>
           </li>
-          <li class="menu-item">
-            <a class="menu-link href="code.html">Code Example</a>
+          <li class="header-menu-item">
+            <a class="header-menu-link href="code.html">Code Example</a>
           </li>
-          <li class="menu-item">
-            <a class="menu-link href="portfolio.html">Portfolio</a>
+          <li class="header-menu-item">
+            <a class="header-menu-link href="portfolio.html">Portfolio</a>
           </li>
-          <li class="menu-item">
-            <a class="menu-link href="languages.html">Languages</a>
+          <li class="header-menu-item">
+            <a class="header-menu-link href="languages.html">Languages</a>
           </li>
-          <li class="menu-item">
-            <a class="menu-link href="education.html">Education</a>
+          <li class="header-menu-item">
+            <a class="header-menu-link href="education.html">Education</a>
           </li>
         </ul>
-      </div>
-      </nav>
-      <img src="/IMG.jpg" alt="avatar" width="200" />
-      <h1>Asan Turdukulov</h1>
-      <h3>student Jyldyz Academy</h3>
-      <p>
-        Ability to make quick decisions, quick learner, responsibility,
-        purposefulness, striving for professional growth.
-      </p>
-      <h3>Contacts</h3>
-      <ul>
-        <li>
-          <h4>Location</h4>
-          <p>Yuzhno-Sakhalinsk, Russia</p>
-        </li>
-        <li>
-          <h4>Phone number:</h4>
-          <a href="tel:+79147667654">+7 914 766 7654</a>
-        </li>
-        <li>
-          <h4>Email:</h4>
-          <a href="https://asan.turdukulov.alt@gmail.com"
-            >asan.turdukulov.alt@gmail.com</a
-          >
-        </li>
-      </ul>
-      
-      
-    </header>
+      </nav>  
+    </div>  
+  </div>
+</header>
 
     <main>
-      <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-          <li>HTML</li>
-        </ul>
-      </section>
-      <section id="code">
-        <h2>Example</h2>
-        <p><b>Task:</b> code example ...</p>
-        <div>
-          <pre>
-              <code>          
- &lt;h1&gt;first level heading&lt;/h1&gt;
- &lt;h2&gt;second level heading&lt;/h2&gt;
- &lt;h2&gt;third level heading &lt;/h2&gt;
- &lt;h2&gt;fourth level heading&lt;/h2&gt;
- &lt;h2&gt;fifth level heading &lt;/h2&gt;
- &lt;h2&gt;sixth level heading &lt;/h2&gt;  
+       <section class="intro">
+         <div class="container-intro">
+           <div class="intro-inner">
+             <div class="intro-left">
+                <img class="intro-img" src="/images/IMG.jpg" alt="AT""> 
+             </div>
+             <div class="intro-right">
+               <h1>Asan Turdukulov</h1>
+               <h3>Junior Web Developer</h3>
+               <p>Ability to make quick decisions, quick learner, responsibility,
+                purposefulness, striving for professional growth.</p>
+             </div>
+           </div>           
+         </div>
+       </section>
+       <section class="contacts">
+         <div class="contacts-inner">
+           <h2 class="section-title">Contacts</h2>
+           <ul>
+             <li><h4>Location</h4>
+            <p>Yuzhno-Sakhalinsk, Russia</p>
+            </li>
+             <li><h4>Phone</h4> 
+              <a href="tel:+79147667654">+7 914 766 76 54</a>
+            </li>
+            <li><h4>Email</h4>
+              <a href="mailto:asan.turdukulov.alt@gmail.com">asan.turdukulov.alt@gmail.com</a>
+              </li>
+           </ul>
+         </div>
+       </section>
+       <section id="skills" class="skills section">
+         <div class="container-skils">
+           <h2 class="section-title">Skills</h2>
+           <ul>
+             <li>HTML</li>
+             <li>CSS</li>
+             <li>JS</li>
+             <li>Figma</li>
+             <li>Notion</li>
+           </ul>
+         </div>
+       </section>
+       <section id="code" class="code-exampl section">
+         <div class="container-exampl">
+           <h2>Code Example</h2>
+           <p>
+             <b>Task:</b> JavaScript code</p>
+             <pre>
+              <code>    
+                function multiply(a,b){
+                  return a * b;
+                } 
               </code>
-          </pre>
-        </div>
-      </section>
-      <section id="portfolio">
-        <h2>Portfolio</h2>
-        <ul>
-          <li>soon...</li>
-          <li>soon...</li>
-          <li>soon...</li>
-        </ul>
-      </section>
-      <section id="Languages">
-        <h2>Languages</h2>
-        <ul>
-          <li>Kyrgyz</li>
-          <li>Russian</li>
-        </ul>
-      </section>
-      <section>
-        <h2>Education</h2>
-        <ul>
-          <li>
-            Kyrgyz National Institute, them. J. Balasagyn. Faculty of Law.
-          </li>
-          <li>student "Jyldyz academy"</li>
-        </ul>
-      </section>
+          </pre>          
+         </div>
+       </section>
     </main>
 
     <footer>
