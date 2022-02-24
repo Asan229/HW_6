@@ -1,3 +1,3 @@
-# Deployed Link
+#My Portfolio
 
-https://asan229.github.io/portfolio/
+https://asan229.github.io/HW_6/
